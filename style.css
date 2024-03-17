@@ -8,6 +8,7 @@ header {
     padding: ;
     margin-bottom: 20px;
     display: flex;
+   align-items: center;
 }
 
 .button {
@@ -25,22 +26,21 @@ nav {
     padding: 25px 100px 25px 95px;
     justify-content: space-between;
     display: flex;
-    background-color: white;
+   
 }
 
 .nav-link {
     font-size: 24px;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 h1 {
     text-align: center;
-    color: black;
     font-size: 36px;
     margin-top: ;
     margin-bottom: ;
-    background-color: white;
+    color: white;
 }
 
 p {
@@ -50,8 +50,9 @@ p {
 .info {
     flex-wrap: wrap;
     width: 1100px;
-    margin: 0px;
     display: flex;
+    margin: 0px auto 0px auto;
+    max-width: 1100px;
 }
 
 article {
@@ -63,7 +64,7 @@ article {
 
 .article-but {
     text-decoration: none;
-    background-color: grey;
+    background-color: brown;
     color: black;
     font-size: 24px;
     text-align: center;
@@ -79,9 +80,37 @@ footer {
 footer a {
     margin-right: 17px;
     background-color: purple;
+    display: block
 
 }
 
 footer p {
     font-size: 24px;
+}
+
+.fffa{
+    text-decoration: none;
+    background-color: green;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px; 
+}
+    
+.kwkw{
+   text-decoration: none;
+    background-color: red;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px; 
+}
+
+.nya{
+       text-decoration: none;
+    background-color: purple;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px; 
 }
